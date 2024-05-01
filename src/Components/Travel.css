@@ -1,0 +1,174 @@
+
+  
+  .banner-image {
+    overflow: hidden;
+    width: 100%;
+    height: 220px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    float: left;
+    box-sizing: border-box;
+    display: block;
+  }
+  
+  .top-features-heading {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 30px;
+    text-decoration-line: underline dashed;
+  }
+  
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+  }
+  
+  h2 {
+    display: block;
+    font-size: 2.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+  
+  :after,
+  :before {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    margin-top: 20px;
+    padding-bottom: 20px;
+   
+  }
+  
+  .paddingInBoxExtra {
+    padding: 10px;
+  }
+  
+  .paddingInBoxExtra {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .row {
+    margin-left: 10px;
+    margin-right: 0px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+   
+    text-align: center;
+  }
+  .icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .btn.btn-primary {
+    padding: 10px 22px;
+      cursor: pointer;
+      border: none;
+      font-family: basicFont;
+      font-size: 12px;
+      margin-bottom: 5px;
+      font-weight: 400;
+      box-sizing: border-box;
+      box-shadow: 0 0 5px #666;
+      border: solid 1px #fff;
+      text-transform: uppercase;
+      padding: 10px 16px;
+      font-size: 18px;
+      line-height: 1.3333333;
+      border-radius: 6px;
+      background: linear-gradient(to bottom, #ff4b5a 0, #dc2626 100%);
+      color: white; /* Set text color to white */
+      text-decoration: none;
+      font-size: 14px;
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .featurPoints {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .featurPoints ul li {
+    width: 100%;
+    line-height: 20px;
+    margin: 0;
+    padding: 3px 0 3px 0px;
+    font-size: 13px;
+    
+    margin-bottom: 5px;
+    color: #2d2c2c !important;
+    border-bottom: dotted 1px #a5bace !important;
+    box-sizing: border-box;
+  }
+  
+  .featurPoints .col-sm-6 {
+    
+    flex: 0 0 48%;
+    max-width: 48%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    
+  }
+  
+  .featurPoints ul li:before {
+    content: url('./images/feat-check.png');
+    display: inline-block;
+   
+    margin-right: 10px;
+  }
+  
+  .marginTop{
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 90%;
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .font15{
+    text-align: left;
+       
+  }
+  .p{
+    font: small !important;
+  }
+  .sub{
+    text-align: left !important;
+  }
+  
